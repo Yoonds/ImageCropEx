@@ -14,8 +14,8 @@
 		6BB37FE22D546C8E005FCC33 /* ImageCropExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB37FE12D546C8E005FCC33 /* ImageCropExTests.swift */; };
 		6BB37FEC2D546C8E005FCC33 /* ImageCropExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB37FEB2D546C8E005FCC33 /* ImageCropExUITests.swift */; };
 		6BB37FEE2D546C8E005FCC33 /* ImageCropExUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB37FED2D546C8E005FCC33 /* ImageCropExUITestsLaunchTests.swift */; };
-		6BB37FFB2D546D21005FCC33 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB37FFA2D546D21005FCC33 /* CropView.swift */; };
 		6BB37FFD2D546D50005FCC33 /* CropBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB37FFC2D546D50005FCC33 /* CropBox.swift */; };
+		6BDB98472D55D46E00AC811D /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDB98462D55D46E00AC811D /* CropView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,8 @@
 		6BB37FE72D546C8E005FCC33 /* ImageCropExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB37FEB2D546C8E005FCC33 /* ImageCropExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropExUITests.swift; sourceTree = "<group>"; };
 		6BB37FED2D546C8E005FCC33 /* ImageCropExUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropExUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		6BB37FFA2D546D21005FCC33 /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = ../../../../../../../../Applications/CropView.swift; sourceTree = "<group>"; };
 		6BB37FFC2D546D50005FCC33 /* CropBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropBox.swift; sourceTree = "<group>"; };
+		6BDB98462D55D46E00AC811D /* CropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 			children = (
 				6BB37FD02D546C8C005FCC33 /* ImageCropExApp.swift */,
 				6BB37FD22D546C8C005FCC33 /* ContentView.swift */,
-				6BB37FFA2D546D21005FCC33 /* CropView.swift */,
 				6BB37FFC2D546D50005FCC33 /* CropBox.swift */,
+				6BDB98462D55D46E00AC811D /* CropView.swift */,
 				6BB37FD42D546C8E005FCC33 /* Assets.xcassets */,
 				6BB37FD62D546C8E005FCC33 /* Preview Content */,
 			);
@@ -263,10 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BDB98472D55D46E00AC811D /* CropView.swift in Sources */,
 				6BB37FD32D546C8C005FCC33 /* ContentView.swift in Sources */,
 				6BB37FFD2D546D50005FCC33 /* CropBox.swift in Sources */,
 				6BB37FD12D546C8C005FCC33 /* ImageCropExApp.swift in Sources */,
-				6BB37FFB2D546D21005FCC33 /* CropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
