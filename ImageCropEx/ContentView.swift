@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 라이브러리 사용 부
 struct ContentView: View {
     
     private var image = UIImage(named: "sample")!
@@ -34,7 +35,7 @@ struct ContentView: View {
             })
         }
         .fullScreenCover(isPresented: $isShowCropView) {
-            CropView(
+            AnifaceCropView(
                 image: image,
                 cropArea: $cropArea,
                 croppedImage: $croppedImage
